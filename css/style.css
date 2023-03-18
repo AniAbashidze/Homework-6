@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Inter;
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: Extra;
+  src: url(/assets/fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Thin;
+  src: url(/assets/fonts/Inter-ExtraLight.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 600px;
+}
+.intro {
+  font-family: "Inter";
+  color: #282828;
+  margin-bottom: 15px;
+}
+.intr {
+  font-family: "Extra";
+  color: #282828;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.int {
+  font-family: "Inter";
+  color: #5f6980;
+}
+.firstrow {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.name {
+  color: #282828;
+  font-family: "Extra";
+  display: flex;
+  margin-bottom: 15px;
+}
+.about {
+  color: #3e3e59;
+  font-family: "Inter";
+  margin-bottom: 15px;
+}
+.profession {
+  color: #5f6980;
+  font-family: "Inter";
+  margin-bottom: 15px;
+}
+
+.Jocelyn {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Martin {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Jordyn {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Leo {
+  width: 22%;
+  border: 2px solid #eaecf0;
+  /* margin-right: 20px;  */
+}
+.secondrow {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.Marilyn {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Lindsey {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Hanna {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+.Ryan {
+  width: 22%;
+  border: 2px solid #eaecf0;
+}
+footer {
+  background-color: #53535354;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px 40px;
+}
+footer div {
+  text-align: left;
+  width: 300px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+footer div p {
+  padding: 20px 20px 20px 0;
+}
+.Lorem {
+  font-family: "Thin";
+  color: #535353;
+}
+h3 {
+  color: #1e1e1e;
+  font-family: "Inter";
+  width: 136px;
+  height: 24px;
+  padding-left: 66px;
+}
+.boloo {
+  color: #535353;
+  font-family: "Thin";
+  height: 48px;
+  width: 92px;
+  padding-left: 70px;
+  width: 199px;
+}
+.u {
+  color: #1e1e1e;
+  font-family: "Inter";
+  width: 136px;
+  height: 24px;
+  padding-bottom: 70px;
+  padding-left: 110px;
+}
+.foto {
+  padding-bottom: 50px;
+  padding-left: 110px;
+}
